@@ -170,7 +170,7 @@ function App() {
           aria-label="Althea, back to home"
           onClick={closeMenu}
         >
-          A<span>.</span>
+          <span className="brand-mark">A<span>.</span></span>
         </a>
 
         <button
@@ -532,7 +532,7 @@ function App() {
       {/* FOOTER */}
       <footer className="footer">
         <a className="wordmark" href="#home" aria-label="Back to top">
-          A<span>.</span>
+          <span className="brand-mark">A<span>.</span></span>
         </a>
         <p>MADE WITH CURIOSITY · © 2026 ALTHEA</p>
         <div className="footer-links">
@@ -541,7 +541,7 @@ function App() {
             className="footer-repo"
             label="Portfolio source code"
           >
-            <span className="github-text">GH</span> SOURCE CODE
+            SOURCE CODE
           </ExternalLinkOrText>
           <a href="#home" className="back-top">BACK TO TOP ↑</a>
         </div>

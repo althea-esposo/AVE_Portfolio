@@ -1164,3 +1164,14 @@ button:focus-visible {
   line-height: 1.4;
 }
 
+.brand-mark {
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+
+.brand-mark span {
+  color: var(--plum-light);
+}
