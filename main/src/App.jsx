@@ -198,8 +198,6 @@ function App() {
           <div className="hero-orbit orbit-one" aria-hidden="true" />
           <div className="hero-orbit orbit-two" aria-hidden="true" />
 
-          <p className="eyebrow hero-kicker">PORTFOLIO · 2026</p>
-
           <div className="hero-center">
             <h1 id="hero-title">A V E</h1>
             <p className="hero-subtitle">
