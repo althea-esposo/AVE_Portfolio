@@ -273,7 +273,6 @@ function App() {
 
             <aside className="about-snapshot" aria-label="Technical profile summary">
               <div className="snapshot-top">
-                <span>A QUICK SNAPSHOT</span>
                 <span>2026</span>
                 </div>
                 <div className="snapshot-content">
@@ -296,7 +295,7 @@ function App() {
 
   <div className="snapshot-tech">
     <span className="snapshot-label">CURRENTLY WORKING WITH</span>
-    <p>MySQL · Firebase · JavaScript</p>
+    <p>MySQL · Firebase · Python</p>
   </div>
 </aside>
           </div>
