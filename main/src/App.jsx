@@ -79,7 +79,7 @@ const projects = [
       "An image-based waste identification system that uses transfer learning with a Convolutional Neural Network (CNN) to classify waste images and suggest appropriate disposal methods.",
     note:
       "During development, the model produced inaccurate predictions. Further improvements are needed, so the project is currently shelved.",
-    repository: "https://github.com/althea-esposo/EcoSort",
+    repository: "https://github.com/althea-esposo/EcoSort.git",
     repositoryLabel: "EcoSort Repository",
     stack: [
       "HTML",
