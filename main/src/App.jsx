@@ -153,6 +153,10 @@ function App() {
   const closeMenu = () => setMenuOpen(false);
   const emailHref = `mailto:${siteConfig.email}`;
 
+  const githubUsername = isPlaceholder(siteConfig.github)
+    ? "GitHub profile"
+    : `@${siteConfig.github.replace(/\/+$/, "").split("/").pop()}`;
+
   const sjcCare = projects.find(
     (project) => project.id === "sjc-care"
   );
@@ -484,8 +488,7 @@ function App() {
                   className="contact-link"
                   label="GitHub profile"
                 >
-                  <span className="github-text">GH</span>
-                  GitHub profile <ArrowUpRight size={15} />
+                  {githubUsername} <ArrowUpRight size={15} />
                 </ExternalLinkOrText>
               </div>
             </div>
@@ -508,7 +511,6 @@ function App() {
                   className="repo-action"
                   label="Open portfolio repository"
                   >
-                    <span className="github-text">GH</span>
                     <span>REPOSITORY</span>
                     <ArrowUpRight size={14} />
                     </ExternalLinkOrText>
@@ -526,15 +528,10 @@ function App() {
         <a className="wordmark" href="#home" aria-label="Back to top">
           <span className="brand-mark">A<span>.</span></span>
         </a>
+
         <p>MADE WITH CURIOSITY · © 2026 ALTHEA</p>
+
         <div className="footer-links">
-          <ExternalLinkOrText
-            href={siteConfig.portfolioRepository}
-            className="footer-repo"
-            label="Portfolio source code"
-          >
-            SOURCE CODE
-          </ExternalLinkOrText>
           <a href="#home" className="back-top">BACK TO TOP ↑</a>
         </div>
       </footer>
