@@ -193,7 +193,6 @@ function App() {
       </header>
 
       <div id="main-content">
-        {/* HERO */}
         <section className="hero" id="home" aria-labelledby="hero-title">
           <div className="hero-orbit orbit-one" aria-hidden="true" />
           <div className="hero-orbit orbit-two" aria-hidden="true" />
@@ -213,7 +212,6 @@ function App() {
           <span className="hero-index">01 / 04</span>
         </section>
 
-        {/* INTRODUCTION */}
         <section className="intro section-shell" aria-labelledby="intro-title">
           <div className="section-tag">
             <span>01</span> / INTRODUCTION
@@ -235,7 +233,6 @@ function App() {
           </div>
         </section>
 
-        {/* ABOUT */}
         <section
           className="about section-shell"
           id="about"
@@ -354,7 +351,6 @@ function App() {
           </div>
         </section>
 
-        {/* PROJECTS */}
         <section
           className="projects section-shell"
           id="projects"
@@ -451,7 +447,6 @@ function App() {
           </p>
         </section>
 
-        {/* CONTACT */}
         <section
           className="contact section-shell"
           id="contact"
@@ -527,7 +522,6 @@ function App() {
         </section>
       </div>
 
-      {/* FOOTER */}
       <footer className="footer">
         <a className="wordmark" href="#home" aria-label="Back to top">
           <span className="brand-mark">A<span>.</span></span>
@@ -544,8 +538,7 @@ function App() {
           <a href="#home" className="back-top">BACK TO TOP ↑</a>
         </div>
       </footer>
-
-      {/* SJC CARE PROJECT DETAILS */}
+      
       {activeProject && (
         <div
           className="modal-backdrop"
